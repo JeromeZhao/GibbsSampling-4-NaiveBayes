@@ -11,8 +11,11 @@ Portion of ham/spam message in both train & test data are the same.
 Repro
 ========================
 python DataSeparation.py - for stochastically separating ham/spam messages to train/test data propotional to given parameter.
+
 python VocabularyBuilder.py - for building uniform vocabulary for training, inference and testing.
+
 python ModelGenerator.py - train model for inference
+
 python inference.py - load model and inference ham/spam type for test message, accounting information is printed in console.
 
 Feature Engineering
@@ -28,10 +31,13 @@ These naive model and simple features yields over 97% precision.
 Reference
 ========================
 [0] http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+
 [1] Resnik, Philip, and Eric Hardisty. Gibbs sampling for the uninitiated. No. CS-TR-4956. MARYLAND UNIV COLLEGE PARK INST FOR ADVANCED COMPUTER STUDIES, 2010.
 
 Environment Requirement
 ========================
 Python 2.7.3
+
 Numpy 1.6.2
+
 stemming 1.0
