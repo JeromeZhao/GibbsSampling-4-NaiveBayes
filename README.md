@@ -12,7 +12,7 @@ Repro
 ========================
 python DataSeparation.py - for stochastically separating ham/spam messages to train/test data propotional to given parameter.
 python VocabularyBuilder.py - for building uniform vocabulary for training, inference and testing.
-python ModelGeneration.py - train model for inference
+python ModelGenerator.py - train model for inference
 python inference.py - load model and inference ham/spam type for test message, accounting information is printed in console.
 
 Feature Engineering
